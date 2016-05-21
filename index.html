@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=640, user-scalable=no"/>
-    <title>简历</title>
+    <title></title>
     <link type="text/css" rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/animate.css"/>
     <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/index2.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
 <div id="main">
@@ -15,36 +15,93 @@
     <div class="music" id="music">
         <audio id="audioFir" src="img/mv.mp3" preload="none" loop/>
     </div>
+    <div class="top">
+        <h2>个人简历</h2>
+    </div>
     <ul id="list">
-        <!--p1开始-->
+        <!--p1 start-->
         <li>
-            <div class="p1">
-                <h2>个人简历</h2>
-            </div>
             <div class="p1_top animated bounceInDown">
                 <img src="img/p1img_head.png" alt="">
             </div>
             <div class="p1_bottom">
-            <span class="p1_name animated rubberBand">孔鹏芳</span>
-            <span class="p1_des animated rubberBand">Web前端工程师</span>
+                <span class="p1_name animated rubberBand">孔鹏芳</span>
+                <span class="p1_des animated rubberBand">Web前端工程师</span>
             </div>
         </li>
+        <!--p2 start-->
         <li>
             <div class="p2">
-                <ul class="p2_top">
-                    <li>姓名</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <div class="p2List">姓名:</div>
+                <div class="p2List animated bounceInRight">孔鹏芳</div>
+                <div class="p2List">工作经验:</div>
+                <div class="p2List animated bounceInRight">3-4年</div>
+                <div class="p2List">电话:</div>
+                <div class="p2List animated bounceInRight">18301007490</div>
+                <div class="p2List">Email:</div>
+                <div class="p2List animated bounceInRight">kpengfang@163.com</div>
+                <div class="p2List">职位:</div>
+                <div class="p2List animated bounceInRight">WEB前端工程师</div>
+                <div class="p2List">居住地:</div>
+                <div class="p2List animated bounceInRight">北京昌平区</div>
             </div>
         </li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
+        <!--p3 start-->
+        <li>
+            <div class="p3">
+                <h2 class="animated pulse">我擅长的</h2>
+            </div>
+            <div class="p3Con">
+                <div class="p3List">React Native、Nodejs</div>
+                <div class="p3List animated bounceInLeft"><img src="img/p3img_Bg1.png" alt=""></div>
+                <div class="p3List">Amaze UI、bootstrap</div>
+                <div class="p3List animated bounceInLeft"><img src="img/p3img_Bg2.png" alt=""></div>
+                <div class="p3List">Javascript、H5</div>
+                <div class="p3List animated bounceInLeft"><img src="img/p3img_Bg1.png" alt=""></div>
+                <div class="p3List">HTML、DIV＋CSS、jQuery</div>
+                <div class="p3List animated bounceInLeft"><img src="img/p3img_Bg4.png" alt=""></div>
+                <div class="p3List">Dedecms、Mysql</div>
+                <div class="p3List animated bounceInLeft"><img src="img/p3img_Bg5.png" alt=""></div>
+            </div>
+        </li>
+        <!--p4 start-->
+        <li>
+            <div class="p4_top animated pulse">
+                <img src="img/p4img_Top.png" alt="">
+            </div>
+            <div class="p4">
+                <span class="p4List animated tada">待人真诚，积极乐观，谦虚稳重，做事比较认真负责；有较强的组织能力，有较好的团队协作精神；具备比较强的自我学习能力，相信自己能很快的融入团队。</span>
+            </div>
+
+        </li>
+        <!--p5 start-->
+        <li>
+            <div class="p5">
+                <h2 class="animated pulse">工作经验</h2>
+            </div>
+            <div class="p5Con">
+                <div class="p5List" id="p5font">2012年－2016年</div>
+                <div class="p5List animated bounceInLeft"><strong>智者创新网络有限公司</strong><br>负责新建网站，从后台调取数据，和PC手机专题上线以及数据库修改，维护网站。</div>
+                <div class="p5List animated bounceInRight">
+                    项目描述:项目采用了Dedecms框架、PHP、jQuery、DIV＋CSS、JavaScript、Ajax等<br>A:前台：主要采用DIV＋CSS以及Js和jQuery制作页面<br>B：后台：主要是Dedecms，来实现PC和手机站点。
+                </div>
+            </div>
+        </li>
+        <!--p6 start-->
+        <li>
+            <div class="p6 animated bounce">
+                <img src="img/p6img_Tel.png" alt="">
+            </div>
+            <div class="p6_Con animated rubberBand">
+                <span class="p6List">看上我</span><br>
+                <span class="p6List">联系我吧</span>
+            </div>
+            <div class="p6_tel">
+                <a href="tel:18301007490"><img src="img/p6img_Pho.png" alt=""> </a>
+            </div>
+        </li>
     </ul>
+    <img src="img/arr.png" id="arrow">
 </div>
 <script type="text/javascript">
     /*音乐*/
