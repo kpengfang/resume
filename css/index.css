@@ -287,8 +287,8 @@ html {
     }
 
     50%{
-        -webkit-transform:translate(0,31rem);
-        transform:translate(0,31rem);
+        -webkit-transform:translate(0,26rem);
+        transform:translate(0,26rem);
     }
 }
 @-webkit-keyframes node1 {
@@ -298,8 +298,8 @@ html {
     }
 
     50%{
-        -webkit-transform:translate(0,31rem);
-        transform:translate(0,31rem);
+        -webkit-transform:translate(0,26rem);
+        transform:translate(0,26rem);
     }
 }
 .p2_top,.p2_bottom{
